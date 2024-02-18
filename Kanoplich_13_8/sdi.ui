@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sdi</class>
+ <widget class="QMainWindow" name="sdi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Sitka Text</family>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>sdi</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <addaction name="actionopen"/>
+    <addaction name="separator"/>
+    <addaction name="actionsave"/>
+    <addaction name="separator"/>
+    <addaction name="actionsave_as_photo"/>
+    <addaction name="separator"/>
+    <addaction name="actionsave_as_document"/>
+    <addaction name="separator"/>
+    <addaction name="actionclose"/>
+    <addaction name="separator"/>
+    <addaction name="actionexit"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>Цвет</string>
+    </property>
+    <addaction name="actionpen"/>
+    <addaction name="separator"/>
+    <addaction name="actionbrush"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>Помощь</string>
+    </property>
+    <addaction name="actionabout"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionopen">
+   <property name="icon">
+    <iconset>
+     <normaloff>../build-Kanoplich_13_8-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/open.png</normaloff>../build-Kanoplich_13_8-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/open.png</iconset>
+   </property>
+   <property name="text">
+    <string>Открыть</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionsave">
+   <property name="icon">
+    <iconset>
+     <normaloff>../build-Kanoplich_13_8-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/save.png</normaloff>../build-Kanoplich_13_8-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>Сохранить</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionsave_as_photo">
+   <property name="icon">
+    <iconset>
+     <normaloff>../build-Kanoplich_13_8-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/photo.png</normaloff>../build-Kanoplich_13_8-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/photo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Сохранить как фото</string>
+   </property>
+  </action>
+  <action name="actionsave_as_document">
+   <property name="icon">
+    <iconset>
+     <normaloff>../build-Kanoplich_13_8-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/download.png</normaloff>../build-Kanoplich_13_8-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/download.png</iconset>
+   </property>
+   <property name="text">
+    <string>Сохранить как документ</string>
+   </property>
+  </action>
+  <action name="actionclose">
+   <property name="icon">
+    <iconset>
+     <normaloff>../build-Kanoplich_13_8-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/close.png</normaloff>../build-Kanoplich_13_8-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/close.png</iconset>
+   </property>
+   <property name="text">
+    <string>Закрыть</string>
+   </property>
+  </action>
+  <action name="actionexit">
+   <property name="icon">
+    <iconset>
+     <normaloff>../build-Kanoplich_13_8-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/exit.png</normaloff>../build-Kanoplich_13_8-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Выход</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+X</string>
+   </property>
+  </action>
+  <action name="actionpen">
+   <property name="icon">
+    <iconset>
+     <normaloff>../build-Kanoplich_13_8-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/pen.png</normaloff>../build-Kanoplich_13_8-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/pen.png</iconset>
+   </property>
+   <property name="text">
+    <string>Карандаш</string>
+   </property>
+  </action>
+  <action name="actionbrush">
+   <property name="icon">
+    <iconset>
+     <normaloff>../build-Kanoplich_13_8-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/brush.png</normaloff>../build-Kanoplich_13_8-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/brush.png</iconset>
+   </property>
+   <property name="text">
+    <string>Кисть</string>
+   </property>
+  </action>
+  <action name="actionabout">
+   <property name="icon">
+    <iconset>
+     <normaloff>../build-Kanoplich_13_8-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/about.png</normaloff>../build-Kanoplich_13_8-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/about.png</iconset>
+   </property>
+   <property name="text">
+    <string>Обо мне</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
